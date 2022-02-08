@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindBugsFilter>
+  <!-- Exclude generated WSDL code -->
+  <Match>
+    <Or>
+      <Package name="~com\.xero\.product\.(models|config).*"/>
+    </Or>
+  </Match>
+</FindBugsFilter>
