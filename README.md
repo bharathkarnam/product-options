@@ -18,7 +18,9 @@
 # Solution
 ### To run the app
 git clone this repo
-run ProductOptionsApplication.java as spring boot app
+``` mvn clean install ```
+or 
+``` run ProductOptionsApplication.java as spring boot app ```
 
 ### Swagger
 Once the app is up and running go to https://localhost:8090/swagger-ui.html#/Xero 
