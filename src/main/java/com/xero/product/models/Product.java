@@ -15,7 +15,6 @@ import javax.persistence.Id;
 @Builder
 @Data
 public class Product {
-    @NonNull
     @Id
     private String productId;
     private String name;

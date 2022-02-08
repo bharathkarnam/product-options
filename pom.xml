@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.xero.product</groupId>
-	<artifactId>productoption</artifactId>
+	<artifactId>product-option</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>productoptions</name>
 	<description>Demo project for xero code refactor</description>
@@ -60,6 +60,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+			<version>1.18.22</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mockito</groupId>
