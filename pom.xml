@@ -129,7 +129,7 @@
 						<exclude>com/xero/product/dao/**</exclude>
 						<exclude>com/xero/product/models/**</exclude>
 						<exclude>com/xero/product/util/**</exclude>
-						<exclude>com/xero/product/ProductoptionsApplication.class</exclude>
+						<exclude>com/xero/product/ProductOptionsApplication.class</exclude>
 						<exclude>**/config/*</exclude>
 					</excludes>
 				</configuration>
