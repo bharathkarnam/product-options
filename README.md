@@ -14,11 +14,14 @@
 #### Please write test cases which covers junit plus demonstrate Integration testing need sample not for entire application
 #### Add in your inputs on how to enhance this app in future
 #### Demonstrate some quality aspects that you feel are apt.
+#### Use sqlite or any simple db's for this test
 
 # Solution
 ### To run the app
 git clone this repo
-run ProductOptionsApplication.java as spring boot app
+``` mvn clean install ```
+or 
+``` run ProductOptionsApplication.java as spring boot app ```
 
 ### Swagger
 Once the app is up and running go to https://localhost:8090/swagger-ui.html#/Xero 
