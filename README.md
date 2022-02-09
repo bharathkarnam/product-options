@@ -17,6 +17,12 @@
 #### Use sqlite or any simple db's for this test
 
 # Solution
+
+### Add cert
+add localhost.p12 cert under resources to your trust store
+
+keytool -v -importkeystore -srckeystore localhost.p12 -srcstoretype PKCS12 -destkeystore abc.jks -deststoretype JKS for more https://jackstromberg.com/2013/05/importing-a-ssl-certificate-into-a-java-keystore-via-a-pkcs12-file/
+
 ### To run the app
 git clone this repo
 ``` mvn clean install ```
